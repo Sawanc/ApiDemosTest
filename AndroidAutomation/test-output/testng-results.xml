@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="softwaretestingmaterial" duration-ms="10966" started-at="2018-05-18T17:38:03Z" finished-at="2018-05-18T17:38:14Z">
+    <groups>
+    </groups>
+    <test name="testngTest" duration-ms="10966" started-at="2018-05-18T17:38:03Z" finished-at="2018-05-18T17:38:14Z">
+      <class name="ApiDemo.ApiDemoTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ApiDemo.ApiDemoTest@cb5822]" name="beforeTest" is-config="true" duration-ms="9705" started-at="2018-05-18T23:08:03Z" finished-at="2018-05-18T23:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Click()[pri:0, instance:ApiDemo.ApiDemoTest@cb5822]" name="Click" duration-ms="1225" started-at="2018-05-18T23:08:13Z" finished-at="2018-05-18T23:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:ApiDemo.ApiDemoTest@cb5822]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-05-18T23:08:14Z" finished-at="2018-05-18T23:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- ApiDemo.ApiDemoTest -->
+    </test> <!-- testngTest -->
+  </suite> <!-- softwaretestingmaterial -->
+</testng-results>
