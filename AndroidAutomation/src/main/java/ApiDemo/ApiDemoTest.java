@@ -42,11 +42,13 @@ public class ApiDemoTest {
          caps.setCapability("noReset","true");
          driver = new AndroidDriver<MobileElement>(new URL("http://0.0.0.0:4723/wd/hub"),caps);
      }
-	
+     
 	@Test(priority=0)
   public void Click() 
   {
 		driver.findElement(By.xpath("//android.widget.TextView[@content-desc=\"Views\"]")).click();
+	/*added changes*/
+		
 		wait = new WebDriverWait(driver, 50);
   }
 	
