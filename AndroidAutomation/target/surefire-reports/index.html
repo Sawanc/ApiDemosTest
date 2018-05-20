@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-softwaretestingmaterial">
-                    <span>F:\Selenium\AndroidAutomation\testng.xml</span>
+                    <span>C:\Users\Sawan Choubisa\git\ApiDemosTest\AndroidAutomation\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,7 +101,12 @@
                     <div class="method-list-content passed suite-softwaretestingmaterial">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-softwaretestingmaterial" title="ApiDemo.ApiDemoTest" hash-for-method="Click">Click</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-softwaretestingmaterial" title="ApiDemo.ApiDemoTest" hash-for-method="scrollToElement">scrollToElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-softwaretestingmaterial" title="ApiDemo.ApiDemoTest" hash-for-method="tapOnMethod">tapOnMethod</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-softwaretestingmaterial -->
@@ -124,9 +129,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Click">
-                  </a> <!-- Click -->
-                  <span class="method-name">Click</span>
+                  <a name="scrollToElement">
+                  </a> <!-- scrollToElement -->
+                  <span class="method-name">scrollToElement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tapOnMethod">
+                  </a> <!-- tapOnMethod -->
+                  <span class="method-name">tapOnMethod</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -134,7 +146,7 @@
         </div> <!-- panel softwaretestingmaterial -->
         <div panel-name="test-xml-softwaretestingmaterial" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">F:\Selenium\AndroidAutomation\testng.xml</span>
+            <span class="header-content">C:\Users\Sawan Choubisa\git\ApiDemosTest\AndroidAutomation\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -183,16 +195,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Click')
+data.setCell(0, 1, 'scrollToElement')
 data.setCell(0, 2, 'ApiDemo.ApiDemoTest')
-data.setCell(0, 3, 671);
+data.setCell(0, 3, 8256);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tapOnMethod')
+data.setCell(1, 2, 'ApiDemo.ApiDemoTest')
+data.setCell(1, 3, 1719);
 window.suiteTableData['softwaretestingmaterial']= { tableData: data, tableDiv: 'times-div-softwaretestingmaterial'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 671 ms</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-softwaretestingmaterial">
               </div> <!-- times-div-softwaretestingmaterial -->
             </div> <!-- times-div -->
@@ -224,12 +240,16 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">Click</span>
-                <span class="method-start">4995 ms</span>
+                <span class="method-name">tapOnMethod</span>
+                <span class="method-start">8481 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">scrollToElement</span>
+                <span class="method-start">10201 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">5667 ms</span>
+                <span class="method-start">18459 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

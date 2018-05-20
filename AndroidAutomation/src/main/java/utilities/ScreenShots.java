@@ -3,8 +3,9 @@ package utilities;
 	import org.openqa.selenium.OutputType;
 	import java.io.File;
 	import java.io.IOException;
+import java.util.UUID;
 
-	import io.appium.java_client.MobileElement;
+import io.appium.java_client.MobileElement;
 	import io.appium.java_client.android.AndroidDriver;
 
 	public class ScreenShots 
@@ -14,15 +15,20 @@ package utilities;
 		{
 			this.driver = driver;
 		}
-		public void ScreenShots1(AndroidDriver<MobileElement> driver2) {
-			// TODO Auto-generated constructor stub
-		}
-		public void takeScreenShots(String ScreenName) throws IOException
+		
+	/*	public void takeScreenShots(String ScreenName) throws IOException
 		{
 			File srcFile = driver.getScreenshotAs(OutputType.FILE);
-			File targetFile = new File("C:\\Users\\Sawan Choubisa\\Desktop\\ScreenShots"+ScreenName+".png");
+			File targetFile = new File("C:\\Users\\Sawan Choubisa\\git\\ApiDemosTest\\AndroidAutomation\\ScreenShots\\"+ScreenName+".png");
 			FileUtils.copyFile(srcFile, targetFile);
 			System.out.println("ScreenShot captured :"+targetFile);
+		}*/
+		public void takeScreenShots(String ScreenName) throws IOException{
+		    File srcFile=driver.getScreenshotAs(OutputType.FILE);
+		    String filename=UUID.randomUUID().toString(); 
+		    File targetFile=new File("C:\\Users\\Sawan Choubisa\\git\\ApiDemosTest\\AndroidAutomation\\ScreenShots\\"+ScreenName+".jpg");
+		    FileUtils.copyFile(srcFile,targetFile);
 		}
 	}
+	
 

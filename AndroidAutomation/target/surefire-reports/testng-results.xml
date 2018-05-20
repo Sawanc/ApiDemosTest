@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="softwaretestingmaterial" duration-ms="5668" started-at="2018-05-18T19:58:02Z" finished-at="2018-05-18T19:58:08Z">
+  <suite name="softwaretestingmaterial" duration-ms="18895" started-at="2018-05-20T16:29:16Z" finished-at="2018-05-20T16:29:35Z">
     <groups>
     </groups>
-    <test name="testngTest" duration-ms="5668" started-at="2018-05-18T19:58:02Z" finished-at="2018-05-18T19:58:08Z">
+    <test name="testngTest" duration-ms="18895" started-at="2018-05-20T16:29:16Z" finished-at="2018-05-20T16:29:35Z">
       <class name="ApiDemo.ApiDemoTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ApiDemo.ApiDemoTest@6b2fad11]" name="beforeTest" is-config="true" duration-ms="4981" started-at="2018-05-19T01:28:02Z" finished-at="2018-05-19T01:28:07Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ApiDemo.ApiDemoTest@3cda1055]" name="beforeTest" is-config="true" duration-ms="8475" started-at="2018-05-20T21:59:16Z" finished-at="2018-05-20T21:59:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="Click()[pri:0, instance:ApiDemo.ApiDemoTest@6b2fad11]" name="Click" duration-ms="671" started-at="2018-05-19T01:28:07Z" finished-at="2018-05-19T01:28:08Z">
+        <test-method status="PASS" signature="tapOnMethod()[pri:0, instance:ApiDemo.ApiDemoTest@3cda1055]" name="tapOnMethod" duration-ms="1719" started-at="2018-05-20T21:59:24Z" finished-at="2018-05-20T21:59:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Click -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:ApiDemo.ApiDemoTest@6b2fad11]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-05-19T01:28:08Z" finished-at="2018-05-19T01:28:08Z">
+        </test-method> <!-- tapOnMethod -->
+        <test-method status="PASS" signature="scrollToElement()[pri:0, instance:ApiDemo.ApiDemoTest@3cda1055]" name="scrollToElement" duration-ms="8256" started-at="2018-05-20T21:59:26Z" finished-at="2018-05-20T21:59:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollToElement -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:ApiDemo.ApiDemoTest@3cda1055]" name="afterTest" is-config="true" duration-ms="434" started-at="2018-05-20T21:59:34Z" finished-at="2018-05-20T21:59:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
